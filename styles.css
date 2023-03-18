@@ -1,22 +1,24 @@
+/* estilizando a tag body*/
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: #fff; /* white */
-    background-color: #333;
-    padding:0;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; /*escolhendo a fonte */
+    text-align: center; /* centralizando o conteudo da pagina*/
+    color: #fff; /* escolhendo a cor do texto como branca */
+    background-color: #44413f; /*escolhendo a cor de fundo */
+    padding:0;/* retirando as laterais da pagina */
+    margin: 0;/* retirando a margem*/
 }
 
+/* */
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border-bottom: 1px solid #666;
+    display: flex; /* ajustando posicao dos itens na pagina*/
+    justify-content: space-between;/* criando espacamento entre os elementos*/
+    padding: 20px; /* espacamento interno para espaco lateral*/
+    border-bottom: 1px solid #666; /*configurando a borda */
 }
 
 nav ul{
-    display: flex;
-    align-items: center;
+    display: flex; /* */
+    align-items: center;/*centralizando itens da ul */
     list-style: none;
 }
 
@@ -25,18 +27,19 @@ ul li{
 }
 
 ul li a{
-    color: #fff;
+    color: #fff;/*cor da li a da pagina estrutura */
 }
 
 h1{
-    font-size: 32px;
+    font-size: 32px;/* aumentando a fonte*/
 }
 
 img{
-    border:  3px solid rgb(15,194,218);
+    border:  3px solid rgb(188, 205, 236); /* adicionando borda na imagem*/
 }
 
 footer{
-    padding: 20px;
-    border-top: 1px solid #666;
+    padding: 20px; /* */
+    border-top: 1px solid #666; /* */
+    margin-top: 20px; /*margem para desgrudar o rodape da imagem */
 }
